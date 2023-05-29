@@ -1,5 +1,19 @@
+.mini-blog{
+    margin: 10px auto;
+    padding: 20px;
+    background-color: aqua;
+    width: 900px;
+}
+
+.mini-blog article{
+    background-color: #CCC;
+    padding: 10px;
+    margin: 20px;
+}
 article p{
     color:green;
     text-align:center;
+    font-size: 20px;
     
 }
+
