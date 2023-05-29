@@ -1,8 +1,14 @@
+.header_title{
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
 
-
+h2, h3{
+    font-size: 1.5em;
+}
 .mini-blog{
     max-width: calc(1000px -40px);
-    margin: 10px auto;
+    margin: 30px auto;
     padding: 20px;
     background-color: blue;
     width: calc(96% - 40px);
@@ -27,48 +33,4 @@ article p{
     
 }
 
-.radius{
-    border-radius: 15px;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-}
 
-/*botao*/
-.btn{
-    color: black;
-    padding: 6px 10px;
-    font-weight: normal;
-    text-decoration: none;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    margin-right: 10px;
-}
-
-.btn:hover{
-    cursor: pointer;
-}
-
-.btn_green{
-    background-color: green;
-    color: #FFF;
-}
-
-.btn_green:hover{
-    background-color: rgb(66, 216, 66);
-}
-
-.btn_red{
-    background-color: red;
-    color: #FFF;
-}
-
-.btn_red:hover{
-    background-color: rgb(216, 66, 66);
-}
-@media(max-width: 730px){
-    .mini-blog article{
-        flex-basis: 100%;
-
-    }
-}

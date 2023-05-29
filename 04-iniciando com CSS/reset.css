@@ -1,0 +1,52 @@
+*, *:after, *:before{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+.radius{
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+}
+
+/*botao*/
+.btn{
+    color: black;
+    padding: 6px 10px;
+    font-weight: normal;
+    text-decoration: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    margin-right: 10px;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.btn_green{
+    background-color: green;
+    color: #FFF;
+}
+
+.btn_green:hover{
+    background-color: rgb(66, 216, 66);
+}
+
+.btn_red{
+    background-color: red;
+    color: #FFF;
+}
+
+.btn_red:hover{
+    background-color: rgb(216, 66, 66);
+}
+@media(max-width: 730px){
+    .mini-blog article{
+        flex-basis: 100%;
+
+    }
+}
