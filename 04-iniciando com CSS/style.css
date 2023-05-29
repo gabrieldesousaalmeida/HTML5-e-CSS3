@@ -1,14 +1,24 @@
+
+
 .mini-blog{
+    max-width: calc(1000px -40px);
     margin: 10px auto;
     padding: 20px;
     background-color: aqua;
-    width: 900px;
+    width: calc(96% - 40px);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mini-blog header{
+    flex-basis: 100%;
 }
 
 .mini-blog article{
     background-color: #CCC;
+    flex-basis: calc(50% - 20px - 20px);
     padding: 10px;
-    margin: 20px;
+    margin: 20px auto;
 }
 article p{
     color:green;
@@ -17,3 +27,9 @@ article p{
     
 }
 
+@media(max-width: 730px){
+    .mini-blog article{
+        flex-basis: 100%;
+
+    }
+}
