@@ -1,0 +1,10 @@
+*, *:after, *:before{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 50px;
+    padding: 0px;
+    text-decoration: none;
+    font-size: 1em;
+    box-sizing: border-box;
+    
+}
+
