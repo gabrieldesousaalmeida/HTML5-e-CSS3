@@ -1,10 +1,8 @@
 *, *:after, *:before{
-    font-family: 'Ubuntu', sans-serif;
-    margin: 50px;
-    padding: 0px;
-    text-decoration: none;
+    margin: 0;
+    padding: 0;
     font-size: 1em;
     box-sizing: border-box;
-    
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
 }
-
