@@ -48,3 +48,36 @@
     background-color: #D36833;
     color: aliceblue;
 }
+
+.main_cta{
+    width: 100%;
+    background-color: #2D3142;
+    color: white;
+}
+
+.main_cta_content h1{
+    font-size: 2.3em;
+    font-weight: 700;
+    align-items: center;
+}
+
+.main_cta_content p{
+    font-size: 1.3em;
+    font-weight: 400;
+    align-items: center;
+}
+
+.main_cta_content a{
+    font-size: 1.3em;
+    padding: 5px 5px;
+    background-color: #D36833;
+    color: aliceblue;
+    font-weight: 400;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.main_cta_content a:hover{
+    background-color: white;
+    color: #D36833;
+}
