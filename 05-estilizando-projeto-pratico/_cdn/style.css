@@ -53,31 +53,44 @@
     width: 100%;
     background-color: #2D3142;
     color: white;
+    background-image: url('../_img/bg_main_home.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 150px;
 }
 
+.main_cta_content{
+    max-width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+}
 .main_cta_content h1{
-    font-size: 2.3em;
+    font-size: 3em;
     font-weight: 700;
-    align-items: center;
+    color: #FFF;
 }
 
 .main_cta_content p{
-    font-size: 1.3em;
-    font-weight: 400;
-    align-items: center;
+    font-size: 1.875em;
+    color: #FFF;
+    font-weight: 300;
+    margin: 20px 0;
 }
 
-.main_cta_content a{
-    font-size: 1.3em;
-    padding: 5px 5px;
+.main_cta_content .btn{
+    font-size: 0.8em;
+    padding: 10px 40px;
     background-color: #D36833;
     color: aliceblue;
     font-weight: 400;
     align-items: center;
     border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
 }
 
-.main_cta_content a:hover{
+.main_cta_content .btn:hover{
     background-color: white;
     color: #D36833;
 }
