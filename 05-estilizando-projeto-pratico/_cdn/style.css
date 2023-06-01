@@ -1,3 +1,4 @@
+/*HEADER*/
 .header_main{
     width: 100%;
     background-color: #2D3142;
@@ -49,6 +50,7 @@
     color: aliceblue;
 }
 
+/*CTA*/
 .main_cta{
     width: 100%;
     background-color: #2D3142;
@@ -93,4 +95,54 @@
 .main_cta_content .btn:hover{
     background-color: white;
     color: #D36833;
+}
+
+/* sessão do blog*/
+
+.main_blog{
+    max-width: 1300px;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.main_blog_header{
+    flex-basis: 100%;
+    margin: 30px 0;
+}
+
+.main_blog_header h1{
+    color: #333;
+    font-size: 1.8em;
+    margin-bottom: 5px;
+}
+
+.main_blog article{
+    flex-basis: calc(25% - 20px);
+    margin-bottom: 30px;
+    opacity: 70%;
+}
+
+.main_blog article:hover{
+    opacity: 100%;
+}
+
+.main_blog p{
+    margin: 10px 0;
+}
+.main_blog img{
+    width: 100%;
+}
+
+.main_blog article .category{
+    font-size:0.875em;
+    color: #D36833;
+}
+
+.main_blog h2 a{
+    color: #2D3142;
+    font-size: 1em;
+    font-weight: 400;
 }
