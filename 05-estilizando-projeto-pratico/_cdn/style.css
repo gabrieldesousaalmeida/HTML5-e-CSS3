@@ -190,3 +190,47 @@
     border-radius: 10px;
     border: none;
 }
+
+/* curso*/
+
+.main_course{
+    width: 100%;
+}
+
+.main_course_header{
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    max-width: 750px;
+
+}
+
+.main_course_header h1{
+    margin: 15px 0;
+    font-size: 3em;
+    font-weight: 700;
+    color: #333;
+}
+
+.main_course_articles{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 40px;
+    
+}
+.main_course article{
+    background-color: #dfe0e7b2;
+    width: 600px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.main_course article h2{
+    font-size: 1.6em;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
