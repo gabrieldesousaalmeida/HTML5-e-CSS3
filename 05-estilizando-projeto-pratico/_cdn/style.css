@@ -291,3 +291,103 @@
 .main_reviews_article article p{
     margin: 5px 0;
 }
+
+/* apresentação da escola*/
+
+.main_school{
+    margin: 40px 0px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.main_school_content{
+    max-width: 900px;
+    margin: 0 30px;
+}
+
+.main_school_img{
+    margin: auto auto;
+    max-width: 400px;
+}
+
+.main_school_img img{
+    width: 300px;
+    border-radius: 50%;
+}
+
+.main_school_header h1{
+    font-size: 2.5em;
+    color: #333;
+}
+
+.main_school_header p{
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #333;
+}
+
+.main_school .media{
+    margin: 30px 0;
+    border-radius: 10px;
+    background-color: #2D3142;
+    padding: 10px 0;
+}
+
+.main_school .btn_media{
+    color: white;
+    font-size: 1em;
+    font-weight: 500;
+    margin: auto 15px;
+    
+}
+.main_school_article_content h2{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.main_school_article_content p{
+    font-size: 1em;
+    font-weight: 400;
+    margin: 15px 0;
+}
+
+.main_school_article_awards{
+    background-color: #dfe0e7b2;
+    padding: 20px 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.main_school_article_awards h2{
+    width: 100%;
+    color: #D36833;
+    margin-bottom: 10px;
+}
+
+.main_school_article_awards_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.main_school_article_awards_list article{
+    flex-basis: 50%;
+    margin: 5px auto;
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.main_school_contact{
+    padding: 20px 0;
+    background-color: #b0b4c931;
+    margin: 20px 5px;
+    text-align: center;
+    width: 100%;
+}
+
+.main_school_contact h2{
+    font-size: 1.5em;
+    font-weight: 800;
+}
