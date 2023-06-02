@@ -15,5 +15,7 @@ COISAS IMPORTANTES QUE APRENDI COM CURSO
 
 3 - DEPOIS A ESTILIZAÇÃO CSS
     3.1 - FAZER ESTILIZAÇÃO POR PARTE OU DOBRA
+        3.1.2 - escolher três cores para palheta
+        3.1.3 - usar padrões de tamanho e espessura da fonte, assim como padding, margem.
     3.2 - RESPONSIVIDADE
 

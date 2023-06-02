@@ -467,3 +467,33 @@
     margin: auto 20px;
 }
 
+/*cta_vip*/
+
+.main_cta_vip{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #3d3e4217;
+    padding-bottom: 30px;
+}
+
+.main_cta_vip_header h1{
+    flex-basis: 100%;
+    color: #2D3142;
+    font-size: 1.5em;
+    font-weight: 800;
+    margin: 40px 0;
+}
+
+.main_cta_vip_header a{
+    flex-basis: 100%;
+    background-color: #D36833;
+    padding: 10px 30px;
+    color: white;
+    font-size: 1.3em;
+    font-weight: 800;
+    border-radius: 6px;
+}
+
