@@ -381,8 +381,7 @@
 
 .main_school_contact{
     padding: 20px 0;
-    background-color: #b0b4c931;
-    margin: 20px 5px;
+    margin: 10px 5px;
     text-align: center;
     width: 100%;
 }
@@ -391,3 +390,72 @@
     font-size: 1.5em;
     font-weight: 800;
 }
+
+/* apresentação do tutor*/
+
+.main_tutor{
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    background-color: #2D3142;
+}
+
+.main_tutor_header{
+    color: white;
+}
+.main_tutor_header h1{
+    margin: 10px auto;
+    font-size: 2em;
+    font-weight: 800;
+}
+
+.main_tutor_header h2{
+    margin: 10px auto;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.main_tutor_header img{
+    margin: 10px auto;
+    width: 200px;
+    border: 8px solid white;
+    border-radius: 50%;
+}
+
+.main_tutor_header p{
+    margin: 10px auto;
+    font-size: 1.1em;
+    font-weight: 300;
+}
+
+.main_tutor_media{
+    border-radius: 8px;
+    max-width: 850px;
+    margin: 20px auto;
+    background-color: #D36833;
+}
+
+.main_tutor_media h2{
+    padding: 25px 0;
+    font-size: 1.7em;
+    font-weight: 800;
+    color: white;
+}
+
+.main_tutor_media_links{
+    width: 100%;
+    padding-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main_tutor_media_links a{
+    font-weight: 700;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px 15px;
+    color: #D36833;
+    margin: auto 20px;
+}
+
