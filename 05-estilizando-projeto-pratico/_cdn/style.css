@@ -338,9 +338,17 @@
 
 .main_school .btn_media{
     color: white;
+    padding: 8px 5px;
     font-size: 1em;
     font-weight: 500;
     margin: auto 15px;
+    
+}
+
+.main_school .btn_media:hover{
+    border-radius: 10px;
+    color: #D36833;
+    background-color: white;
     
 }
 .main_school_article_content h2{
@@ -373,10 +381,10 @@
     justify-content: space-between;
 }
 .main_school_article_awards_list article{
-    flex-basis: 50%;
-    margin: 5px auto;
+    flex-basis: calc(50% - 20px);
+    margin: 5px 0;
     font-size: 1em;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .main_school_contact{
