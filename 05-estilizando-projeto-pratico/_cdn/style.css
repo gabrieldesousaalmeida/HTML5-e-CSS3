@@ -497,3 +497,57 @@
     border-radius: 6px;
 }
 
+/*saber mais*/
+
+.about{
+    max-width: 90%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.about_header{
+    flex-basis: 100%;
+}
+.about_header h1{
+    color: #2D3142;
+    font-size: 2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.about .about_pages{
+    flex-basis: 20%;
+}
+
+.about .about_pages h2{
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.about .about_links{
+    flex-basis: 20%;
+}
+.about .about_project{
+    flex-basis: 50%;
+}
+
+.about p{
+    margin: 8px 0;
+    color: #333;
+}
+
+.about a{
+    color: #333;
+}
+
+/*rodapé*/
+footer{
+    margin-top: 40px;
+    text-align: center;
+    background-color: #3d3e4217;
+}
+
+footer p{
+    padding: 20px 0;
+}
