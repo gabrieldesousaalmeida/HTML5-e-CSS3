@@ -584,7 +584,7 @@ footer p{
     -webkit-border-radius: 4px 4px 0 0;
 }
 
-.header_main_content_menu_mobile_obj:hover{
+.header_main_content_menu_mobile_obj:hover, .active{
     background-color: #FFF;
 }
 
