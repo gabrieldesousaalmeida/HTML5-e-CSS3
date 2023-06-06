@@ -612,3 +612,13 @@ footer p{
     color: #FFF;
     background-color: #D36833;
 }
+
+/*responsividade*/
+@media (min-width: 48em){
+    .header_main_content_menu{
+        display: flex !important;
+    }
+    .header_main_content_menu_mobile{
+        display: none;
+    }
+}
