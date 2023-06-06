@@ -555,3 +555,60 @@ footer{
 footer p{
     padding: 20px 0;
 }
+
+/*responsividade do site*/
+.header_main_content_menu_mobile{
+    flex-basis: calc(100% - 330px);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header_main_content_menu_mobile ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.header_main_content_menu_mobile ul li{
+    position: relative;
+}
+
+.header_main_content_menu_mobile_obj{
+    display: flex;
+    align-items: center;
+    color: #D36833;
+    padding: 20px;
+    border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    -webkit-border-radius: 4px 4px 0 0;
+}
+
+.header_main_content_menu_mobile_obj:hover{
+    background-color: #FFF;
+}
+
+.header_main_content_menu_mobile_sub{
+    position: absolute;
+    right: -20px;
+    top:100%;
+    min-width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FFF;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+    border-radius: 4px 0 4px 4px;
+}
+
+.header_main_content_menu_mobile_sub a{
+    flex-basis: 100%;
+    padding: 10px 0;
+    color: #D36833;
+}
+
+.header_main_content_menu_mobile_sub a:hover{
+    color: #FFF;
+    background-color: #D36833;
+}

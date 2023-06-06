@@ -6,3 +6,7 @@
     text-decoration: none;
     font-family: 'Ubuntu', sans-serif;
 }
+
+.ds_none{
+    display: none !important;
+}
