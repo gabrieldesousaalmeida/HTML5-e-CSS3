@@ -220,9 +220,9 @@
     margin-bottom: 40px;
     
 }
-.main_course article{
+.main_course_articles article{
     background-color: #dfe0e7b2;
-    width: 600px;
+    flex-basis: calc(50% - 40px);
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
@@ -266,8 +266,7 @@
 .main_reviews_article{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
+    justify-content: space-around;
 }
 
 .main_reviews_article img{
@@ -277,9 +276,9 @@
 .main_reviews_article article{
     background-color: white;
     padding: 20px;
-    margin: 10px 10px;
+    margin: 10px 0;
     border-radius: 10px;
-    max-width: 600px;
+    flex-basis: calc(48% - 20px);
 }
 
 .main_reviews_article article h2{
@@ -688,10 +687,8 @@ footer p{
     .main_blog article{
         flex-basis: calc(50% - 10px);
     }
-}
 
-/*720px*/
-@media (max-width: 45em){
+    /*optin*/
     .main_optin header h1{
         text-align: center;
     }
@@ -709,7 +706,15 @@ footer p{
         margin: 10px 5px !important;
     }
     
+    /*curso*/
+    .main_course_articles article{
+        flex-basis: 100%;
+    }
 
+    /*reviews*/
+    .main_reviews_article article{
+        flex-basis: calc(100% - 40px);
+    }
 }
 
 /*560px*/
