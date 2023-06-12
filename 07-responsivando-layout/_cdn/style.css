@@ -782,6 +782,20 @@ footer p{
     .main_tutor_media_links a{
         margin: auto 0;
     }
+
+    /*saber mais*/
+    .about .about_pages{
+        flex-basis: 50%;
+    }
+
+    .about .about_links{
+        flex-basis: 50%;
+    }
+
+    .about .about_project{
+        margin-top: 20px;
+        flex-basis: 100%;
+    }
     
 }
 /*480px*/
