@@ -1,0 +1,823 @@
+/*HEADER*/
+.header_main{
+    width: 100%;
+    background-color: #2D3142;
+}
+
+.header_main_content{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1300px;
+    
+}
+
+.header_main_content .logo{
+    padding: 20px;
+    flex-basis: 330px;
+    width: 290px;
+    
+}
+
+.header_main_content_menu{
+    flex-basis: calc(100% - 330px);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header_main_content_menu ul{
+    display: flex;
+    align-items: stretch;
+    
+}
+
+.header_main_content_menu ul li{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    
+}
+
+.header_main_content_menu ul li a{
+    display: flex;
+    padding: 0px 26px;
+    align-items: center;
+    color: #D36833;
+    height: 100%;
+}
+
+.header_main_content_menu ul li a:hover{
+    background-color: #D36833;
+    color: aliceblue;
+}
+
+/*CTA*/
+.main_cta{
+    width: 100%;
+    background-color: #2D3142;
+    color: white;
+    background-image: url('../_img/bg_main_home.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 150px;
+}
+
+.main_cta_content{
+    max-width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+}
+.main_cta_content h1{
+    font-size: 3em;
+    font-weight: 700;
+    color: #FFF;
+}
+
+.main_cta_content p{
+    font-size: 1.875em;
+    color: #FFF;
+    font-weight: 300;
+    margin: 20px 0;
+}
+
+.main_cta_content .btn{
+    font-size: 0.8em;
+    padding: 10px 40px;
+    background-color: #D36833;
+    color: aliceblue;
+    font-weight: 400;
+    align-items: center;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+.main_cta_content .btn:hover{
+    background-color: white;
+    color: #D36833;
+}
+
+/* sessão do blog*/
+
+.main_blog{
+    max-width: 1300px;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.main_blog_header{
+    flex-basis: 100%;
+    margin: 30px 0;
+}
+
+.main_blog_header h1{
+    color: #333;
+    font-size: 1.8em;
+    margin-bottom: 5px;
+}
+
+.main_blog article{
+    flex-basis: calc(25% - 20px);
+    margin-bottom: 30px;
+    opacity: 70%;
+}
+
+.main_blog article:hover{
+    opacity: 100%;
+}
+
+.main_blog p{
+    margin: 10px 0;
+}
+.main_blog img{
+    width: 100%;
+}
+
+.main_blog article .category{
+    font-size:0.875em;
+    color: #D36833;
+}
+
+.main_blog h2 a{
+    color: #2D3142;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+/*OPTIN*/
+.main_optin{
+    width: 100%;
+    padding: 30px 20px;
+    margin: 30px 0;
+    background-color: #2D3142;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main_optin header{
+    color: #FFF;
+    margin-right: 5px;
+}
+
+.main_optin h1{
+    font-size: 1.2em;
+}
+
+.main_optin p{
+    text-align: end;
+}
+
+.main_optin .input_box{
+    margin: auto 10px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.main_optin .btn_submit{
+    cursor: pointer;
+    height: 38px;
+    margin: auto 10px;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 0 60px;
+    background-color: #D36833;
+    color: #FFF;
+    border-radius: 10px;
+    border: none;
+}
+
+/* curso*/
+
+.main_course{
+    width: 100%;
+}
+
+.main_course_header{
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    max-width: 750px;
+
+}
+
+.main_course_header h1{
+    margin: 15px 0;
+    font-size: 3em;
+    font-weight: 700;
+    color: #333;
+}
+
+.main_course_articles{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 40px;
+    
+}
+.main_course_articles article{
+    background-color: #dfe0e7b2;
+    flex-basis: calc(50% - 40px);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.main_course article h2{
+    font-size: 1.6em;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+/* sessão das reviews*/
+
+.main_reviews{
+    width: 100%;
+    background-color: #D36833;
+    padding-bottom: 30px;
+}
+
+.main_reviews_header{
+    padding-top: 25px;
+    text-align: center;
+}
+
+.main_reviews_header h1{
+    margin-bottom: 20px;
+    color: white;
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.main_reviews_header p{
+    margin: 20px 0;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 500;
+
+}
+
+.main_reviews_article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.main_reviews_article img{
+    width: 15px;
+}
+
+.main_reviews_article article{
+    background-color: white;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+    flex-basis: calc(48% - 20px);
+}
+
+.main_reviews_article article h2{
+    font-size: 1.2em;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+.main_reviews_article article p{
+    margin: 5px 0;
+}
+
+/* apresentação da escola*/
+
+.main_school{
+    margin: 40px 0px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main_school_content{
+    flex-basis: calc(70% - 40px);
+    margin: 0 30px;
+}
+
+.main_school_img{
+    margin: auto 20px;
+    flex-basis: 20%;
+    justify-content: center; 
+}
+
+.main_school_img img{
+    width: 300px;
+    border-radius: 50%;
+}
+
+.main_school_header h1{
+    font-size: 2.5em;
+    color: #333;
+}
+
+.main_school_header p{
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #333;
+}
+
+.main_school .media{
+    margin: 30px 0;
+    border-radius: 10px;
+    background-color: #2D3142;
+    padding: 10px 0;
+}
+
+.main_school .btn_media{
+    color: white;
+    padding: 8px 5px;
+    font-size: 1em;
+    font-weight: 500;
+    margin: auto 15px;
+    
+}
+
+.main_school .btn_media:hover{
+    border-radius: 10px;
+    color: #D36833;
+    background-color: white;
+    
+}
+.main_school_article_content h2{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.main_school_article_content p{
+    font-size: 1em;
+    font-weight: 400;
+    margin: 15px 0;
+}
+
+.main_school_article_awards{
+    background-color: #dfe0e7b2;
+    padding: 20px 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.main_school_article_awards h2{
+    width: 100%;
+    color: #D36833;
+    margin-bottom: 10px;
+}
+
+.main_school_article_awards_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.main_school_article_awards_list article{
+    flex-basis: calc(50% - 20px);
+    margin: 5px 0;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.main_school_contact{
+    padding: 20px 0;
+    margin: 10px 5px;
+    text-align: center;
+    flex-basis: 100%;
+}
+
+.main_school_contact h2{
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+/* apresentação do tutor*/
+
+.main_tutor{
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #2D3142;
+}
+
+.main_tutor_header{
+    color: white;
+}
+.main_tutor_header h1{
+    margin: 10px auto;
+    font-size: 2em;
+    font-weight: 800;
+}
+
+.main_tutor_header h2{
+    margin: 10px auto;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.main_tutor_header img{
+    margin: 10px auto;
+    width: 200px;
+    border: 8px solid white;
+    border-radius: 50%;
+}
+
+.main_tutor_header p{
+    margin: 10px 20px;
+    font-size: 1.1em;
+    font-weight: 300;
+}
+
+.main_tutor_media{
+    border-radius: 8px;
+    flex-basis: 70%;
+    max-width: 850px;
+    margin: 20px auto;
+    background-color: #D36833;
+}
+
+.main_tutor_media h2{
+    padding: 25px 0;
+    font-size: 1.7em;
+    font-weight: 800;
+    color: white;
+}
+
+.main_tutor_media_links{
+    width: 100%;
+    padding-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main_tutor_media_links a{
+    flex-basis: 33%;
+    font-weight: 700;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px 15px;
+    color: #D36833;
+    margin: auto 20px;
+}
+
+/*cta_vip*/
+
+.main_cta_vip{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #3d3e4217;
+    padding-bottom: 30px;
+}
+
+.main_cta_vip_header h1{
+    flex-basis: 100%;
+    color: #2D3142;
+    font-size: 1.5em;
+    font-weight: 800;
+    margin: 40px 0;
+}
+
+.main_cta_vip_header a{
+    flex-basis: 100%;
+    background-color: #D36833;
+    padding: 10px 30px;
+    color: white;
+    font-size: 1.3em;
+    font-weight: 800;
+    border-radius: 6px;
+}
+
+/*saber mais*/
+
+.about{
+    max-width: 90%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.about_header{
+    flex-basis: 100%;
+}
+.about_header h1{
+    color: #2D3142;
+    font-size: 2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.about .about_pages{
+    flex-basis: 20%;
+}
+
+.about .about_pages h2{
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.about .about_links{
+    flex-basis: 20%;
+}
+.about .about_project{
+    flex-basis: 50%;
+}
+
+.about p{
+    margin: 8px 0;
+    color: #333;
+}
+
+.about a{
+    color: #333;
+}
+
+.about a:hover{
+    text-decoration: underline;
+}
+
+/*rodapé*/
+footer{
+    margin-top: 40px;
+    text-align: center;
+    background-color: #3d3e4217;
+}
+
+footer p{
+    padding: 20px 0;
+}
+
+/*responsividade do site*/
+.header_main_content_menu_mobile{
+    flex-basis: calc(100% - 330px);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header_main_content_menu_mobile ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.header_main_content_menu_mobile ul li{
+    position: relative;
+}
+
+.header_main_content_menu_mobile_obj{
+    display: flex;
+    align-items: center;
+    color: #D36833;
+    padding: 20px;
+    border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    -webkit-border-radius: 4px 4px 0 0;
+}
+
+.header_main_content_menu_mobile_obj:hover, .active{
+    background-color: #FFF;
+}
+
+.header_main_content_menu_mobile_sub{
+    position: absolute;
+    right: -20px;
+    top:100%;
+    min-width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FFF;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+    border-radius: 4px 0 4px 4px;
+}
+
+.header_main_content_menu_mobile_sub a{
+    flex-basis: 100%;
+    padding: 10px 0;
+    color: #D36833;
+}
+
+.header_main_content_menu_mobile_sub a:hover{
+    color: #FFF;
+    background-color: #D36833;
+}
+
+/*responsividade*/
+
+/*1240px*/
+@media (max-width: 78em){
+    .main_optin header{
+        margin-bottom: 10px;
+    }
+
+    /*apresentação da escola*/
+    .main_school_content{
+        flex-basis: 100%;
+    }
+
+    .main_school_img{
+        flex-basis: 20%;
+        margin: 0 20px;
+    }
+    .main_school_contact{
+        flex-basis: 60%;
+        margin: auto 20px;
+    }
+
+}
+@media (max-width: 64em){
+    /*menu e primeira dobra8*/
+    .main_cta .main_cta_content h1{
+        font-size: 2.5em !important;
+    }
+
+    .main_cta .main_cta_content p{
+        font-size: 2em !important;
+    }
+
+    .main_cta{
+        padding: 100px 30px;
+    }
+
+    .main_cta_content .btn{
+        font-size: 0.7em;
+    }
+
+    /*sessão de artigos*/
+    .main_blog article{
+        flex-basis: calc(33% - 20px);
+    }
+}
+/*860*/
+@media (max-width: 54em){
+    /*apresentação da escola*/
+    .main_school_article_awards_list article{
+        flex-basis: 100%;
+    }
+
+    .main_school_img{
+        flex-basis: 30%;
+        margin: auto auto;
+    }
+
+
+    .main_school_contact{
+        flex-basis: 100%;
+        margin: auto 20px;
+    }
+
+    /*tutor*/
+    .main_tutor_media{
+        flex-basis: 80%;
+    }
+}
+/*768px*/
+@media (max-width: 48em){
+    /*menu e primeira dobra8*/
+    .header_main_content_menu{
+        display: none !important;
+    }
+
+    .header_main_content_menu_mobile{
+        display: flex !important;
+    }
+
+    .main_cta .main_cta_content h1{
+        font-size: 2em !important;
+    }
+
+    .main_cta .main_cta_content p{
+        font-size: 1.5em !important;
+    }
+
+    .main_cta{
+        padding: 100px 30px;
+    }
+
+    .main_cta_content .btn{
+        font-size: 0.7em;
+    }
+
+    .header_main .header_main_content .logo{
+        flex-basis: 280px !important;
+    }
+
+    .header_main .header_main_content .logo img{
+        width: 100% !important;
+    }
+
+    .header_main_content_menu_mobile{
+        flex-basis: calc(100% - 280px) !important;
+    }
+
+    /*sessão de artigos*/
+    .main_blog article{
+        flex-basis: calc(50% - 10px);
+    }
+
+    /*optin*/
+    .main_optin header h1{
+        text-align: center;
+    }
+
+    .main_optin header p{
+        text-align: center;
+    }
+    .main_optin form{
+        text-align: center;
+        justify-content: space-between !important;
+    }
+
+    .main_optin form input{
+        width: calc(50% -10px) !important;
+        margin: 10px 5px !important;
+    }
+    
+    /*curso*/
+    .main_course_articles article{
+        flex-basis: 100%;
+    }
+
+    /*reviews*/
+    .main_reviews_article article{
+        flex-basis: calc(100% - 40px);
+    }
+
+    /*tutor*/
+    .main_tutor_media_links a{
+        margin: auto 0;
+    }
+    .main_tutor_media_links article{
+        margin: 20px 10px;
+    }
+    
+}
+
+/*560px*/
+@media (max-width: 35em){
+    /*optin*/
+    .main_optin form input{
+        width: 90% !important;
+    }
+    /*tutor*/
+    .main_tutor_media_links article{
+        flex-basis: 100%;
+    }
+    .main_tutor_media_links a{
+        margin: auto 0;
+    }
+
+    /*saber mais*/
+    .about .about_pages{
+        flex-basis: 50%;
+    }
+
+    .about .about_links{
+        flex-basis: 50%;
+    }
+
+    .about .about_project{
+        margin-top: 20px;
+        flex-basis: 100%;
+    }
+    
+}
+/*480px*/
+@media (max-width: 30em){
+    .main_cta .main_cta_content h1{
+        font-size: 1.5em !important;
+    }
+
+    .main_cta .main_cta_content p{
+        font-size: 1em !important;
+    }
+
+    .main_cta{
+        padding: 60px 30px;
+    }
+
+    .main_cta_content .btn{
+        font-size: 0.8em;
+    }
+    /*sessão de artigos*/
+    .main_blog article{
+        flex-basis: 100%;
+    }
+
+}
