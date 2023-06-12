@@ -298,17 +298,18 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .main_school_content{
-    max-width: 900px;
+    flex-basis: calc(70% - 40px);
     margin: 0 30px;
 }
 
 .main_school_img{
-    margin: auto auto;
-    max-width: 400px;
+    margin: auto 20px;
+    flex-basis: 20%;
+    justify-content: center; 
 }
 
 .main_school_img img{
@@ -390,7 +391,7 @@
     padding: 20px 0;
     margin: 10px 5px;
     text-align: center;
-    width: 100%;
+    flex-basis: 100%;
 }
 
 .main_school_contact h2{
@@ -404,6 +405,9 @@
     padding: 20px 0;
     text-align: center;
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     background-color: #2D3142;
 }
 
@@ -430,13 +434,14 @@
 }
 
 .main_tutor_header p{
-    margin: 10px auto;
+    margin: 10px 20px;
     font-size: 1.1em;
     font-weight: 300;
 }
 
 .main_tutor_media{
     border-radius: 8px;
+    flex-basis: 70%;
     max-width: 850px;
     margin: 20px auto;
     background-color: #D36833;
@@ -458,6 +463,7 @@
 }
 
 .main_tutor_media_links a{
+    flex-basis: 33%;
     font-weight: 700;
     border-radius: 10px;
     background-color: white;
@@ -619,6 +625,21 @@ footer p{
     .main_optin header{
         margin-bottom: 10px;
     }
+
+    /*apresentação da escola*/
+    .main_school_content{
+        flex-basis: 100%;
+    }
+
+    .main_school_img{
+        flex-basis: 20%;
+        margin: 0 20px;
+    }
+    .main_school_contact{
+        flex-basis: 60%;
+        margin: auto 20px;
+    }
+
 }
 @media (max-width: 64em){
     /*menu e primeira dobra8*/
@@ -643,7 +664,29 @@ footer p{
         flex-basis: calc(33% - 20px);
     }
 }
+/*860*/
+@media (max-width: 54em){
+    /*apresentação da escola*/
+    .main_school_article_awards_list article{
+        flex-basis: 100%;
+    }
 
+    .main_school_img{
+        flex-basis: 30%;
+        margin: auto auto;
+    }
+
+
+    .main_school_contact{
+        flex-basis: 100%;
+        margin: auto 20px;
+    }
+
+    /*tutor*/
+    .main_tutor_media{
+        flex-basis: 80%;
+    }
+}
 /*768px*/
 @media (max-width: 48em){
     /*menu e primeira dobra8*/
@@ -715,6 +758,15 @@ footer p{
     .main_reviews_article article{
         flex-basis: calc(100% - 40px);
     }
+
+    /*tutor*/
+    .main_tutor_media_links a{
+        margin: auto 0;
+    }
+    .main_tutor_media_links article{
+        margin: 20px 10px;
+    }
+    
 }
 
 /*560px*/
@@ -722,6 +774,13 @@ footer p{
     /*optin*/
     .main_optin form input{
         width: 90% !important;
+    }
+    /*tutor*/
+    .main_tutor_media_links article{
+        flex-basis: 100%;
+    }
+    .main_tutor_media_links a{
+        margin: auto 0;
     }
     
 }
