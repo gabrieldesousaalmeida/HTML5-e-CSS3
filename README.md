@@ -17,9 +17,21 @@ COISAS IMPORTANTES QUE APRENDI COM CURSO
     3.1 - FAZER ESTILIZAÇÃO POR PARTE OU DOBRA
         3.1.1 - escolher três cores para palheta
         3.1.2 - usar padrões de tamanho e espessura da fonte, assim como padding, margem.
-    3.2 - RESPONSIVIDADE
+
+4 - depois a RESPONSIVIDADE
         breakpoints - pontos de quebra de conteudo
         prioridade a uso de vetores do que a imagens bitmap
         desktop first ou mobile first
         3.2.1 - usar no máximo três webfonts
 
+5 - colocar OTIMIZAÇÃO SOCIAL (SMO)
+    5.1 - SEO básica para tags meta
+    5.2 - servindo protocolo facebook
+    5.3 - protocolo twitter
+    5.4 - Instalando google analytics
+    5.5 - instalando pixel google adwords
+    5.6 - instalando pixel facebook
+
+6 - microformatos
+
+    

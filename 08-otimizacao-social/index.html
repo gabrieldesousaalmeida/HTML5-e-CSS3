@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" itemscope itemtype="https://schema.org/WebSite">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +10,12 @@
     <meta name="robots" content="index, follow">
 
     <link rel="canonical" href="http://localhost/html-css/08-otimizacao-social/">
+
+    <!--microformato website-->
+    <meta itemprop="name" content="Projeto prático HTML5 e CSS3">
+    <meta itemprop="description" content="Projeto prático HTML5 e CSS3 da Upinside cursos">
+    <meta itemprop="image" content="http://localhost/html-css/08-otimizacao-social/_img/post.jpg">
+    <meta itemprop="url" content="http://localhost/html-css/08-otimizacao-social/">
 
     <!--facebook seo-->
     <meta property="og:url" content="http://localhost/html-css/08-otimizacao-social/" />
@@ -97,10 +103,13 @@
                 <h2><a href="#"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</a></h2>
             </article>
 
-            <article>
-                <a href="#"><img src="_img/post.jpg" alt=""></a>
+            <article itemscope itemtype="https://schema.org/Article">
+                <a href="#"><img src="_img/post.jpg" itemprop="image" alt="Lorem Ipsum is simply dummy"></a>
                 <p><a href="#" class="category"> Categoria</a></p>
-                <h2><a href="#"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</a></h2>
+                <span itemprop="author" itemscope itemtype="https://schema.org/Person" class="ds_none"><a href="#" itemprop="url"><span itemprop="name">gabriel</span></a></span>
+                <h2 itemprop="headline"><a href="#"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</a></h2>
+                <time datetime="2023-05-12" itemprop="datePublished"></time>
+                <time datetime="2023-05-12" itemprop="dateModified"></time>
             </article>
 
             <article>
