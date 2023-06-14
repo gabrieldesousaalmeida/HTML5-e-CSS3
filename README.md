@@ -33,5 +33,9 @@ COISAS IMPORTANTES QUE APRENDI COM CURSO
     5.6 - instalando pixel facebook
 
 6 - microformatos
+ 6.1 - website
+ 6.2 - organization
+ 6.3 - article
+ 6.4 - person
 
     
